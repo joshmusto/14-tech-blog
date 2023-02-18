@@ -1,0 +1,47 @@
+<!-- Note: This document is used for design purposes only, final site launch will function using handlebars-->
+<!doctype html>
+<html>
+
+    <head>
+        <title>Tech Blog</title>
+        <meta charset="UTF-8" />
+        <meta name="description" content="a place to blog all about tech">
+        <meta name="keywords" content="keywords for search engines">
+        <link rel="stylesheet" type="text/css" href="../public/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="../public/css/style.css" />
+    </head>
+
+    <body>
+        <!-- header, navbar, main, and footer can all be included in base file, varying content in main can be done via handlebars, current page indicator on navbar can probably be done with css-->
+        <section id="header">
+            <h1>Tech Blog</h1>
+        </section>
+        <section id="navbar">
+            <button id="navHome">Home</button>
+            <button id="navDashboard">Dashboard</button>
+            <button id="navLoginLogout">Login</button>
+        </section>
+        <section id="main">
+            <section id="postBoard">
+                <section class="post">
+                    <section class="postHeader">
+                        <span class="postTitle">
+                            <h3>Post Title</h3>
+                        </span>
+                        <span class="postDate">
+                            <p>Posted by [user] on 2/18/2023</p>
+                        </span>
+                    </section>
+                    <section class="postBody">
+                        <p>This is where the actual body of the post goes.</p>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <section id="footer">
+            <p>This is a footer. Fancy, huh?</p>
+        </section>
+	    <script src="../public/js/script.js"></script>
+    </body>
+
+</html>
