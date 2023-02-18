@@ -1,0 +1,67 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    padding: 20px;
+    background-color: rgb(84, 119, 84);
+}
+h1 {
+    color: white;
+    font-size: 40px;
+}
+
+#navbar {
+    padding: 0 10px 0 20px;
+    background-color: rgb(151, 189, 151);
+}
+button {
+    font-size: 20px;
+    padding: 4px 30px 4px 4px;
+    border-style: solid;
+    border-width: 0 0 0 4px;
+    border-color: rgb(84, 119, 84);
+    background-color: rgb(151, 189, 151);
+    margin: 4px 0 4px 0;
+}
+button:hover {
+    color: white;
+}
+
+#main {
+    height: 100vh;
+    background-color:rgb(191, 216, 191);
+}
+#postBoard {
+    padding: 40px 10rem 40px 10rem;
+}
+.post {
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(84, 119, 84);
+}
+.postHeader {
+    justify-content: space-between;
+    padding: 10px 0 14px 10px;
+    background-color:rgb(84, 119, 84);
+}
+.postTitle {
+    display: inline-block;
+}
+h3 {
+    font-size: 25px;
+    color: white;
+}
+.postDate {
+    display: inline-block;
+    font-size: 10px;
+}
+.postBody {
+    padding: 10px 20px 10px 20px;
+}
+
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color:rgb(84, 119, 84);
+}
