@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>Tech Blog</title>
+        <meta charset="UTF-8" />
+        <meta name="description" content="a place to blog all about tech">
+        <meta name="keywords" content="keywords for search engines">
+        <link rel="stylesheet" type="text/css" href="../public/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="../public/css/style.css" />
+    </head>
+
+    <body>
+        <section id="header">
+            <h1>Tech Blog</h1>
+        </section>
+        <section id="navbar">
+            <button id="navHome">Home</button>
+            <button id="navDashboard">Dashboard</button>
+            <!-- conditional login/logout stuff -->
+            {{#if logged_in}}
+            <button id="navLogout">Logout</button>
+            {{else}}
+            <button id="navLogin">Login</button>
+            {{/if}}
+        </section>
+        <section id="main">
+            {{{ body }}}
+        </section>
+        <section id="footer">
+            <p>This is a footer. Fancy, huh?</p>
+        </section>
+	    <script src="../public/js/script.js"></script>
+    </body>
+
+</html>
