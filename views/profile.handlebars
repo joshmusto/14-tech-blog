@@ -1,0 +1,41 @@
+<section>
+    <h3>Welcome, {{username}}</h3>
+</section>
+
+<section>
+    <h3>Write a new post:</h3>
+    <form>
+        <section class="formGroup">
+            <label>Post Title:</label>
+            <input type="text" id="postTitleInput"/>
+        </section>
+        <section class="formGroup">
+            <label>Post Body:</label>
+            <input type="text" id="postBodyInput"/>
+        </section>
+    </form>
+</section>
+
+{{! display previously made posts if they exist}}
+{{#if posts.length}}
+<section>
+    <h3>Posts:</h3>
+    {{#each posts as |post|}}
+    <section class="post">
+        <section class="postHeader">
+            <span class="postTitle">
+                <h3>Post Title</h3>
+            </span>
+            <span class="postDate">
+                <p>Posted by [user] on 2/18/2023</p>
+            </span>
+        </section>
+        <section class="postBody">
+            <p>This is where the actual body of the post goes.</p>
+        </section>
+    </section>
+    {{/each}}
+</section>
+{{/if}}
+
+<script src="../public/js/profile.js"></script>
