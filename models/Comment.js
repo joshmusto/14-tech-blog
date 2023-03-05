@@ -27,6 +27,13 @@ Comment.init(
                 key: 'id',
             },
         },
+        main_post: {
+            type: DataTypes.INTEGER,
+            references: {
+                model: "blogpost",
+                key: "id",
+            }
+        },
     },
     {
         sequelize,
