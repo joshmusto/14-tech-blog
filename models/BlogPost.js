@@ -24,7 +24,7 @@ BlogPost.init(
             defaultValue: DataTypes.NOW,
         },
         date_modified: {
-            type: DataTypes.Date,
+            type: DataTypes.DATE,
             defaultValue: DataTypes.NOW,
         },
         user_id: {

@@ -6,8 +6,8 @@
         <meta charset="UTF-8" />
         <meta name="description" content="a place to blog all about tech">
         <meta name="keywords" content="keywords for search engines">
-        <link rel="stylesheet" type="text/css" href="../public/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="../public/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="./css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
     </head>
 
     <body>
@@ -16,9 +16,9 @@
         </section>
         <section id="navbar">
             <button id="navHome">Home</button>
-            <button id="navDashboard">Dashboard</button>
             <!-- conditional login/logout stuff -->
             {{#if logged_in}}
+            <button id="navDashboard">Dashboard</button>
             <button id="navLogout">Logout</button>
             {{else}}
             <button id="navLogin">Login</button>
@@ -30,7 +30,7 @@
         <section id="footer">
             <p>This is a footer. Fancy, huh?</p>
         </section>
-	    <script src="../public/js/script.js"></script>
+	    <script src="./js/script.js"></script>
     </body>
 
 </html>
