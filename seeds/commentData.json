@@ -1,0 +1,14 @@
+[
+    {
+        "body": "I also like it when this is the case",
+        "mainPost": 1
+    },
+    {
+        "body": "We're going to need some more information. What's giving you trouble? Is it syntax? Remembering functions? General concept? Help us help you!",
+        "mainPost": 2
+    },
+    {
+        "body": "This is a comment on the third post",
+        "mainPost": 3
+    }
+]
