@@ -1,17 +1,17 @@
 [
     {
         "username": "UserA",
-        "emmail": "usera@mail.com",
+        "email": "usera@mail.com",
         "password": "password12345"
     },
     {
         "username": "UserB",
-        "emmail": "userb@mail.com",
+        "email": "userb@mail.com",
         "password": "password12345"
     },
     {
         "username": "UserC",
-        "emmail": "userc@mail.com",
+        "email": "userc@mail.com",
         "password": "password12345"
     }
 ]
